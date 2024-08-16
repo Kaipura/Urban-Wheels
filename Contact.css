@@ -1,0 +1,106 @@
+
+  .logo {
+      height: 3em;
+      max-width: 100%;
+  }
+  
+ 
+  main {
+      margin-top: 10%;
+      margin-bottom: 10%;
+  }
+  
+  /* Contact Info Section Style */
+  .ContactInfo {
+      padding: 20px;
+  }
+  
+  .contact-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center; /* Center align text in each item */
+  }
+  
+  .contact-item img {
+      width: 40px;
+      height: auto;
+      margin-bottom: 10px;
+  }
+  
+  .contact-item h4 {
+      margin-bottom: 10px;
+      font-size: 1.25em;
+      font-weight: bold;
+  }
+  
+  .contact-item p {
+      font-size: 1em;
+      color: #333;
+  }
+  
+  .contact-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ContactInfo .col-md-4 {
+      margin: 20px 0;
+      border: none; /* Remove border on small screens */
+      padding: 20px; /* Ensure padding is applied */
+    }
+  }
+  
+  /* Footer Style */
+  footer {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      padding: 20px; 
+      color: white;
+      background-color: #000000; 
+  }
+  
+  footer h5 {
+      text-align: center;
+  }
+  
+  .Countries p {
+      float: right;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .Countries a {
+      color: inherit;
+      text-decoration: none;
+  }
+  
+  .Menu p {
+      float: left;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .Menu a {
+      color: inherit;
+      text-decoration: none;
+  }
+  
